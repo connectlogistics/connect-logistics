@@ -23,35 +23,41 @@ const Services = () => {
         });
       };
 
-    useEffect(() => {
-      const toggleScrolled = () => {
-        const selectBody = document.querySelector('body');
-        const selectHeader = document.querySelector('#header');
-        
-        // Ensure the header has required classes before toggling
-        if (!selectHeader.classList.contains('scroll-up-sticky') &&
-            !selectHeader.classList.contains('sticky-top') &&
-            !selectHeader.classList.contains('fixed-top')) {
-          return;
-        }
-  
-        // Toggle 'scrolled' class based on scroll position
-        if (window.scrollY > 100) {
-          selectBody.classList.add('scrolled');
-        } else {
-          selectBody.classList.remove('scrolled');
-        }
-      };
-  
-      document.addEventListener('scroll', toggleScrolled);
-      window.addEventListener('load', toggleScrolled);
-  
-      // Cleanup event listeners on unmount
-      return () => {
-        document.removeEventListener('scroll', toggleScrolled);
-        window.removeEventListener('load', toggleScrolled);
-      };
-    }, []);
+      useEffect(() => {
+        const toggleScrolled = () => {
+          const selectBody = document.querySelector('body');
+          const selectHeader = document.querySelector('#header');
+          const selectInquiry= document.querySelector('.scroll-top1');
+          const selectScrollTop= document.querySelector('.scroll-top');
+          
+          // Ensure the header has required classes before toggling
+          if (!selectHeader.classList.contains('scroll-up-sticky') &&
+              !selectHeader.classList.contains('sticky-top') &&
+              !selectHeader.classList.contains('fixed-top')) {
+            return;
+          }
+    
+          // Toggle 'scrolled' class based on scroll position
+          if (window.scrollY > 100) {
+            selectBody.classList.add('scrolled');
+            selectInquiry.classList.add('active');
+            selectScrollTop.classList.add('active');
+          } else {
+            selectBody.classList.remove('scrolled');
+            selectInquiry.classList.remove('active');
+            selectScrollTop.classList.remove('active');
+          }
+        };
+    
+        document.addEventListener('scroll', toggleScrolled);
+        window.addEventListener('load', toggleScrolled);
+    
+        // Cleanup event listeners on unmount
+        return () => {
+          document.removeEventListener('scroll', toggleScrolled);
+          window.removeEventListener('load', toggleScrolled);
+        };
+      }, []);
     return (
         <>
             <header id="header" className="header d-flex align-items-center fixed-top">
@@ -382,7 +388,8 @@ const Services = () => {
 
             </footer>
             {/* Scroll Top */}
-            <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center active" onClick={handleScrollToTop}><i className="bi bi-arrow-up-short"></i></a>
+            <a href="#" id="scroll-top" className="scroll-top1 d-flex align-items-center justify-content-center " onClick={handleScrollToTop} > <i className="bi bi-chat-right-text" style={{width:'50px'}}></i> Inquiries Here</a>
+            <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center " onClick={handleScrollToTop}><i className="bi bi-arrow-up-short"></i></a>
         </>
     )
 }

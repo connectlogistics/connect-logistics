@@ -1,9 +1,6 @@
 'use client'
 import React, { useState,useEffect } from 'react'
 
-
-
-
 const Index = () => {
   // const [isVisible, setIsVisible] = useState(false);
 
@@ -80,6 +77,8 @@ const Index = () => {
       const toggleScrolled = () => {
         const selectBody = document.querySelector('body');
         const selectHeader = document.querySelector('#header');
+        const selectInquiry= document.querySelector('.scroll-top1');
+        const selectScrollTop= document.querySelector('.scroll-top');
         
         // Ensure the header has required classes before toggling
         if (!selectHeader.classList.contains('scroll-up-sticky') &&
@@ -91,8 +90,12 @@ const Index = () => {
         // Toggle 'scrolled' class based on scroll position
         if (window.scrollY > 100) {
           selectBody.classList.add('scrolled');
+          selectInquiry.classList.add('active');
+          selectScrollTop.classList.add('active');
         } else {
           selectBody.classList.remove('scrolled');
+          selectInquiry.classList.remove('active');
+          selectScrollTop.classList.remove('active');
         }
       };
   
@@ -144,7 +147,7 @@ const Index = () => {
             <div className="col-lg-6 text-center">
               <h2>Welcome to Connect Logistics</h2>
               <p>Connect Logistics offers customized supply chain solutions that streamline your logistics operations and enhance efficiency for your business.</p>
-              <a href="#get-started" className="btn-get-started">Get Started</a>
+              <a href="#get-started" className="btn-get-started"><i className="bi bi-chat-right-text" style={{width:'50px'}}></i> Inquiries Here</a>
             </div>
           </div>
         </div>
@@ -957,7 +960,9 @@ const Index = () => {
   </footer>
 
   {/* Scroll Top */} 
-  <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center active" onClick={handleScrollToTop} ><i className="bi bi-arrow-up-short"></i></a>
+ 
+  <a href="#" id="scroll-top" className="scroll-top1 d-flex align-items-center justify-content-center " onClick={handleScrollToTop} > <i className="bi bi-chat-right-text" style={{width:'50px'}}></i> Inquiries Here</a>
+  <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center " onClick={handleScrollToTop} ><i className="bi bi-arrow-up-short"></i></a>
 
   {/* Preloader */}
   {/* <div id="preloader"></div>         */}
