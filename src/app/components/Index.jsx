@@ -350,9 +350,8 @@ const Index = () => {
               <div className="icon">
                 <i className="fa-solid fa-mountain-city"></i>
               </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <h3>Freight Forwarding</h3>
+              <p>Detail services such as sea freight, air freight, and overland transport. Mention specific services like FCL (Full Container Load) and LCL (Less than Container Load) consolidation, door-to-door delivery, and custom brokerage and clearance.</p>              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
             </div>
           </div>{/* End Service Item */}
 
@@ -361,8 +360,8 @@ const Index = () => {
               <div className="icon">
                 <i className="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                 <h3>Supply Chain Management</h3>
+                                    <p>Explain how your company manages the entire supply chain, including procurement, warehousing, and distribution. Highlight any specialized services like just-in-time delivery or vendor-managed inventory.</p>
               <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
             </div>
           </div>{/* End Service Item */}
@@ -372,8 +371,8 @@ const Index = () => {
               <div className="icon">
                 <i className="fa-solid fa-compass-drafting"></i>
               </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <h3>Warehousing and Storage</h3>
+                                    <p>Describe your warehousing facilities, including security measures, climate-controlled storage, and inventory management systems.</p>
               <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
             </div>
           </div>{/* End Service Item */}
@@ -383,8 +382,8 @@ const Index = () => {
               <div className="icon">
                 <i className="fa-solid fa-trowel-bricks"></i>
               </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <h3>Custom Brokerage Services</h3>
+                                    <p>Detail your expertise in customs clearance, documentation, and compliance with regulatory requirements.</p>
               <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
             </div>
           </div>{/* End Service Item */}
@@ -394,8 +393,8 @@ const Index = () => {
               <div className="icon">
                 <i className="fa-solid fa-helmet-safety"></i>
               </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <h3>Tracking and Monitoring</h3>
+                                    <p>Highlight any real-time tracking systems that allow customers to monitor their shipments. This can include integration with tracking tools and updates on shipment status.</p>
               <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
             </div>
           </div>{/* End Service Item */}
@@ -405,8 +404,8 @@ const Index = () => {
               <div className="icon">
                 <i className="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <h3>Relocation Services</h3>
+                <p>If applicable, describe services related to moving and relocating goods, whether for personal or commercial purposes.</p>
               <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
             </div>
           </div>{/* End Service Item */}
@@ -426,38 +425,38 @@ const Index = () => {
           <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="/img/alt-services.jpg" alt=""/></div>
 
           <div className="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+            <h3>Why Choose Connect Logistics Cargo LLC?</h3>
+            {/* <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p> */}
 
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i className="bi bi-easel flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h4><a href="" className="stretched-link">Global Network</a></h4>
+                <p>With a network of agents in multiple regions, we offer global reach and local expertise.</p>
               </div>
             </div>{/* End Icon Box */}
 
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i className="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4><a href="" className="stretched-link">Safe and Secure</a></h4>
+                <p>Our facilities are equipped with advanced security measures, including round-the-clock camera surveillance, to ensure the safety of your goods.</p>
               </div>
             </div>{/* End Icon Box */}
 
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
               <i className="bi bi-brightness-high flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Dine Pad</a></h4>
-                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                <h4><a href="" className="stretched-link">Flexible Solutions</a></h4>
+                <p>We offer tailored logistics solutions to meet the unique needs of each client, ensuring flexibility and adaptability.</p>
               </div>
             </div>{/* End Icon Box */}
 
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i className="bi bi-brightness-high flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Tride clov</a></h4>
-                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                <h4><a href="" className="stretched-link">Expert Team</a></h4>
+                <p>Our team of experienced professionals is dedicated to providing efficient and reliable logistics solutions.</p>
               </div>
             </div>{/* End Icon Box */}
 
@@ -477,27 +476,28 @@ const Index = () => {
 
           <li className="nav-item col-3" role="presentation">
             <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
-              <h4>Modisit</h4>
+              <h4>Warehousing and Storage</h4>
             </a>
           </li>{/* End tab nav item */}
 
           <li className="nav-item col-3" role="presentation">
             <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabIndex={-1} role="tab">
-              <h4>Praesenti</h4>
+              <h4>Customer-Centric Approach</h4>
             </a>{/* End tab nav item */}
 
           </li>
           <li className="nav-item col-3" role="presentation">
             <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabIndex={-1} role="tab">
-              <h4>Explica</h4>
+              <h4>Efficiency and Reliability</h4>
             </a>
           </li>{/* End tab nav item */}
 
           <li className="nav-item col-3" role="presentation">
             <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabIndex={-1} role="tab">
-              <h4>Nostrum</h4>
+              <h4>Safety and Security</h4>
             </a>
-          </li>{/* End tab nav item */}
+          </li>
+          {/* End tab nav item */}
 
         </ul>
 
@@ -506,16 +506,8 @@ const Index = () => {
           <div className="tab-pane fade active show" id="features-tab-1" role="tabpanel">
             <div className="row">
               <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Voluptatem dignissimos provident</h3>
-                <p className="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
+                <h3>State-of-the-Art Warehousing</h3>
+                <p>Located in the Jebel Ali Free Zone, offering 510 square meters of storage space and additional open yard facilities for bulk storage. The warehouses are equipped with secure and climate-controlled storage options</p>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
                 <img src="/img/features-1.jpg" alt="" className="img-fluid"/>
@@ -526,16 +518,11 @@ const Index = () => {
           <div className="tab-pane fade" id="features-tab-2" role="tabpanel">
             <div className="row">
               <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Neque exercitationem debitis</h3>
-                <p className="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
+                <h3>Clear Communication</h3>
+                
                 <ul>
-                  <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                  <li><i className="bi bi-check2-all"></i> <span>Prompt response times and efficient problem-solving skills to address client inquiries and resolve issues quickly.</span></li>
+                  <li><i className="bi bi-check2-all"></i> <span>Tailored logistics solutions to meet the specific needs of clients, ensuring flexibility and reliability.</span></li>
                 </ul>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
@@ -547,16 +534,11 @@ const Index = () => {
           <div className="tab-pane fade" id="features-tab-3" role="tabpanel">
             <div className="row">
               <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Voluptatibus commodi accusamu</h3>
+                <h3>Inventory Management</h3>
                 <ul>
-                  <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
+                  <li><i className="bi bi-check2-all"></i> <span>Comprehensive control of available stock and data management to plan and anticipate demand, avoiding stockouts and ensuring the correct product is delivered in the right amount, at the right place, and at the right time.</span></li>
+                  <li><i className="bi bi-check2-all"></i> <span>Expertise in selecting the most efficient routes, modes of transportation, and carrier options to reduce transit times and costs.</span></li>
                 </ul>
-                <p className="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
                 <img src="/img/features-3.jpg" alt="" className="img-fluid"/>
@@ -567,15 +549,9 @@ const Index = () => {
           <div className="tab-pane fade" id="features-tab-4" role="tabpanel">
             <div className="row">
               <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Omnis fugiat ea explicabo sunt</h3>
-                <p className="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
+                <h3>Safe and Secure</h3>
                 <ul>
-                  <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                  <li><i className="bi bi-check2-all"></i> <span>Ensuring all shipments are safe and secure, with options for insured transportation to protect against losses.</span></li>
                 </ul>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
@@ -916,11 +892,11 @@ const Index = () => {
         <div className="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Air Freight</a></li>
+            <li><a href="#"> Sea Freight</a></li>
+            <li><a href="#">Car Lashing and Loading</a></li>
+            <li><a href="#"> Warehousing & Handling</a></li>
+            <li><a href="#">Packing & Removal</a></li>
           </ul>
         </div>
 

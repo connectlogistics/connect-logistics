@@ -128,8 +128,8 @@ const Services = () => {
                                     <div className="icon">
                                         <i className="fa-solid fa-mountain-city"></i>
                                     </div>
-                                    <h3>Nesciunt Mete</h3>
-                                    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                                    <h3>Freight Forwarding</h3>
+                                    <p>Detail services such as sea freight, air freight, and overland transport. Mention specific services like FCL (Full Container Load) and LCL (Less than Container Load) consolidation, door-to-door delivery, and custom brokerage and clearance.</p>
                                     <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>{/* End Service Item */}
@@ -139,8 +139,8 @@ const Services = () => {
                                     <div className="icon">
                                         <i className="fa-solid fa-arrow-up-from-ground-water"></i>
                                     </div>
-                                    <h3>Eosle Commodi</h3>
-                                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                                    <h3>Supply Chain Management</h3>
+                                    <p>Explain how your company manages the entire supply chain, including procurement, warehousing, and distribution. Highlight any specialized services like just-in-time delivery or vendor-managed inventory.</p>
                                     <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>{/* End Service Item */}
@@ -150,8 +150,8 @@ const Services = () => {
                                     <div className="icon">
                                         <i className="fa-solid fa-compass-drafting"></i>
                                     </div>
-                                    <h3>Ledo Markt</h3>
-                                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                                    <h3>Warehousing and Storage</h3>
+                                    <p>Describe your warehousing facilities, including security measures, climate-controlled storage, and inventory management systems.</p>
                                     <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>{/* End Service Item */}
@@ -161,8 +161,8 @@ const Services = () => {
                                     <div className="icon">
                                         <i className="fa-solid fa-trowel-bricks"></i>
                                     </div>
-                                    <h3>Asperiores Commodit</h3>
-                                    <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                                    <h3>Custom Brokerage Services</h3>
+                                    <p>Detail your expertise in customs clearance, documentation, and compliance with regulatory requirements.</p>
                                     <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>{/* End Service Item */}
@@ -172,8 +172,8 @@ const Services = () => {
                                     <div className="icon">
                                         <i className="fa-solid fa-helmet-safety"></i>
                                     </div>
-                                    <h3>Velit Doloremque</h3>
-                                    <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                                    <h3>Tracking and Monitoring</h3>
+                                    <p>Highlight any real-time tracking systems that allow customers to monitor their shipments. This can include integration with tracking tools and updates on shipment status.</p>
                                     <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>{/* End Service Item */}
@@ -183,8 +183,8 @@ const Services = () => {
                                     <div className="icon">
                                         <i className="fa-solid fa-arrow-up-from-ground-water"></i>
                                     </div>
-                                    <h3>Dolori Architecto</h3>
-                                    <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                                    <h3>Relocation Services</h3>
+                                    <p>If applicable, describe services related to moving and relocating goods, whether for personal or commercial purposes.</p>
                                     <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>{/* End Service Item */}
@@ -345,11 +345,11 @@ const Services = () => {
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Our Services</h4>
                             <ul>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">Product Management</a></li>
-                                <li><a href="#">Marketing</a></li>
-                                <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Air Freight</a></li>
+            <li><a href="#"> Sea Freight</a></li>
+            <li><a href="#">Car Lashing and Loading</a></li>
+            <li><a href="#"> Warehousing & Handling</a></li>
+            <li><a href="#">Packing & Removal</a></li>
                             </ul>
                         </div>
 

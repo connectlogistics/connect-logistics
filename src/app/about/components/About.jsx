@@ -616,11 +616,11 @@ const About = () => {
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Our Services</h4>
                             <ul>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">Product Management</a></li>
-                                <li><a href="#">Marketing</a></li>
-                                <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Air Freight</a></li>
+            <li><a href="#"> Sea Freight</a></li>
+            <li><a href="#">Car Lashing and Loading</a></li>
+            <li><a href="#"> Warehousing & Handling</a></li>
+            <li><a href="#">Packing & Removal</a></li>
                             </ul>
                         </div>
 
