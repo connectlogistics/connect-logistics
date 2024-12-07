@@ -126,17 +126,17 @@ const About = () => {
                             <div className="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="/img/about.jpg" /></div>
 
                             <div className="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                                <h2 className="inner-title">Consequatur eius et magnam</h2>
+                                <h2 className="inner-title">Company History</h2>
                                 <div className="our-story">
                                     <h4>Est 1988</h4>
                                     <h3>Our Story</h3>
-                                    <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p>
-                                    <ul>
+                                    <p>Connect Logistics Cargo LLC was established with a vision to be an indispensable partner to its clients, providing global logistics solutions with a network of agents across Europe, Asia, CIS, Africa, the Baltic region, and the Middle East. The company was founded on the principles of reliability, efficiency, and a commitment to connecting local businesses to a world of opportunity.</p>
+                                    {/* <ul>
                                         <li><i className="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commo</span></li>
                                         <li><i className="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in</span></li>
                                         <li><i className="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-                                    </ul>
-                                    <p>Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non nesciunt suscipit repellendus porro in quo eveniet. Molestias in maxime doloremque.</p>
+                                    </ul> */}
+                                    <p>Over the years, Connect Logistics Cargo LLC has expanded its services to include a wide range of logistics solutions. This expansion has been driven by the companies commitment to innovation and customer satisfaction.</p>
 
                                     <div className="watch-video d-flex align-items-center position-relative">
                                         <i className="bi bi-play-circle"></i>
