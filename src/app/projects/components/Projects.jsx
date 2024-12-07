@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
+import OverlayModal from '@/global_components/InquiryModal';
 
 const Projects = () => {
     useEffect(() => {
@@ -38,7 +39,7 @@ const Projects = () => {
           }
     
           // Toggle 'scrolled' class based on scroll position
-          if (window.scrollY > 100) {
+          if (window.scrollY > 40) {
             selectBody.classList.add('scrolled');
             selectInquiry.classList.add('active');
             selectScrollTop.classList.add('active');
@@ -368,7 +369,7 @@ const Projects = () => {
             </footer>
 
             {/* Scroll Top */}
-            <a href="#" id="scroll-top" className="scroll-top1 d-flex align-items-center justify-content-center " onClick={handleScrollToTop} > <i className="bi bi-chat-right-text" style={{width:'50px'}}></i> Inquiries Here</a>
+            <OverlayModal/>
             <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center  " onClick={handleScrollToTop}><i className="bi bi-arrow-up-short"></i></a>
         </>
     )

@@ -1,5 +1,7 @@
 'use client'
+import OverlayModal from '@/global_components/InquiryModal';
 import React, { useState,useEffect } from 'react'
+
 
 const Index = () => {
   // const [isVisible, setIsVisible] = useState(false);
@@ -17,39 +19,39 @@ const Index = () => {
   //   };
   // }, []);
 
-  useEffect(() => {
-    // Ensure this script runs only on the client-side
-    if (typeof window !== 'undefined') {
-      document.querySelectorAll('.isotope-layout').forEach(function (isotopeItem) {
-        let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
-        let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
-        let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
+  // useEffect(() => {
+  //   // Ensure this script runs only on the client-side
+  //   if (typeof window !== 'undefined') {
+  //     document.querySelectorAll('.isotope-layout').forEach(function (isotopeItem) {
+  //       let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
+  //       let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
+  //       let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
 
-        let initIsotope;
-        imagesLoaded(isotopeItem.querySelector('.isotope-container'), function () {
-          initIsotope = new Isotope(isotopeItem.querySelector('.isotope-container'), {
-            itemSelector: '.isotope-item',
-            layoutMode: layout,
-            filter: filter,
-            sortBy: sort
-          });
-        });
+  //       let initIsotope;
+  //       imagesLoaded(isotopeItem.querySelector('.isotope-container'), function () {
+  //         initIsotope = new Isotope(isotopeItem.querySelector('.isotope-container'), {
+  //           itemSelector: '.isotope-item',
+  //           layoutMode: layout,
+  //           filter: filter,
+  //           sortBy: sort
+  //         });
+  //       });
 
-        isotopeItem.querySelectorAll('.isotope-filters li').forEach(function (filters) {
-          filters.addEventListener('click', function () {
-            isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
-            this.classList.add('filter-active');
-            initIsotope.arrange({
-              filter: this.getAttribute('data-filter')
-            });
-            if (typeof aosInit === 'function') {
-              aosInit();
-            }
-          }, false);
-        });
-      });
-    }
-  }, []);
+  //       isotopeItem.querySelectorAll('.isotope-filters li').forEach(function (filters) {
+  //         filters.addEventListener('click', function () {
+  //           isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
+  //           this.classList.add('filter-active');
+  //           initIsotope.arrange({
+  //             filter: this.getAttribute('data-filter')
+  //           });
+  //           if (typeof aosInit === 'function') {
+  //             aosInit();
+  //           }
+  //         }, false);
+  //       });
+  //     });
+  //   }
+  // }, []);
 
   const handleScrollToTop = (e) => {
     e.preventDefault();
@@ -88,7 +90,7 @@ const Index = () => {
         }
   
         // Toggle 'scrolled' class based on scroll position
-        if (window.scrollY > 100) {
+        if (window.scrollY > 40) {
           selectBody.classList.add('scrolled');
           selectInquiry.classList.add('active');
           selectScrollTop.classList.add('active');
@@ -147,7 +149,7 @@ const Index = () => {
             <div className="col-lg-6 text-center">
               <h2>Welcome to Connect Logistics</h2>
               <p>Connect Logistics offers customized supply chain solutions that streamline your logistics operations and enhance efficiency for your business.</p>
-              <a href="#get-started" className="btn-get-started"><i className="bi bi-chat-right-text" style={{width:'50px'}}></i> Inquiries Here</a>
+              {/* <OverlayModal isMain={true}/> */}
             </div>
           </div>
         </div>
@@ -936,8 +938,7 @@ const Index = () => {
   </footer>
 
   {/* Scroll Top */} 
- 
-  <a href="#" id="scroll-top" className="scroll-top1 d-flex align-items-center justify-content-center " onClick={handleScrollToTop} > <i className="bi bi-chat-right-text" style={{width:'50px'}}></i> Inquiries Here</a>
+  <OverlayModal/>
   <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center " onClick={handleScrollToTop} ><i className="bi bi-arrow-up-short"></i></a>
 
   {/* Preloader */}
