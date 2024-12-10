@@ -1,25 +1,24 @@
-import { google } from "googleapis"
+import { google } from "googleapis";
 
 export async function POST(request) {
-    const req = await request.json()
-    console.log(request.method);
+    const req = await request.json();
 
-
-    if (request.method == 'POST') {
-
+    if (request.method === 'POST') {
         try {
             const { name, email, subject, message } = req;
 
-
-            // Load Google Sheets API credentials
+            // Load Google Sheets API credentials from environment variables
             const auth = new google.auth.GoogleAuth({
-                keyFile: './extreme-bedrock-444100-j2-11b46f3e1dc9.json', 
+                credentials: {
+                    client_email: process.env.GOOGLE_CLIENT_EMAIL,
+                    private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+                },
                 scopes: ['https://www.googleapis.com/auth/spreadsheets'],
             });
 
             const sheets = google.sheets({ version: 'v4', auth });
 
-            const spreadsheetId = '17VbpOzL-0vf0GsDt7BrZeZYBPTVEjUYEgpHIlmf7kCc';
+            const spreadsheetId = process.env.SPREADSHEET_ID;
             const range = 'Sheet1!A:D';
 
             // Append data to the sheet
@@ -31,16 +30,17 @@ export async function POST(request) {
                     values: [[name, email, subject, message, new Date().toISOString()]],
                 },
             });
+
             const res = JSON.stringify(req);
             return new Response(res, {
                 status: 200,
                 ok: true,
-            })
+            });
         } catch (error) {
             console.error(error);
             return new Response('Error', {
                 status: 500,
-            })
+            });
         }
     }
 }

@@ -7,6 +7,7 @@ const OverlayModal = () => {
     const [subject, setSubject] = useState('')
     const [message, setMessage] = useState('')
     const [status, setStatus] = useState('');
+    const [isSent,seIsSent]=useState(false)
 
     const openModal = () => {
         setIsOpen(true);
@@ -14,7 +15,7 @@ const OverlayModal = () => {
 
     const closeModal = () => {
         setIsOpen(false);
-        setStatus('')
+        // setStatus('')
     };
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -22,6 +23,8 @@ const OverlayModal = () => {
         try {
             if (name !== '' && email !== '' && message !== '') {
                 setStatus('Loading...')
+                closeModal()
+                seIsSent(true)
                 const res = await fetch('/api', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -32,6 +35,7 @@ const OverlayModal = () => {
                 setEmail('')
                 setSubject('')
                 setMessage('')
+                
 
                 const result = await res.json();
 
@@ -55,7 +59,7 @@ const OverlayModal = () => {
 
     return (
         <>
-            <a style={{ textDecoration: 'none' }} className='scroll-top1 d-flex align-items-center justify-content-center' onClick={openModal} > <i className="bi bi-chat-right-text" style={{ width: '50px' }}></i> Inquiries Here</a>
+            <a style={{ textDecoration: 'none' }} className='scroll-top1 d-flex align-items-center justify-content-center' onClick={openModal} > <i className={isSent?"bi bi-check2-all":"bi bi-chat-right-text"} style={{ width: '50px' }}></i>{isSent?'Inquiry Sent': 'Inquiry Here'}</a>
 
             {isOpen && (
                 <div className="overlay" onClick={closeModal}>
