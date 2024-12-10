@@ -19,6 +19,64 @@ const Services = () => {
           aosInit()
     },[])
 
+    useEffect(() => {
+        const bodyElement = document.querySelector('body');
+        const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+    
+        // Function to toggle mobile navigation
+        const mobileNavToogle = () => {
+          bodyElement?.classList.toggle('mobile-nav-active');
+          mobileNavToggleBtn?.classList.toggle('bi-list');
+          mobileNavToggleBtn?.classList.toggle('bi-x');
+        };
+    
+        // Add event listener for the toggle button
+        mobileNavToggleBtn?.addEventListener('click', mobileNavToogle);
+    
+        // Handle same-page/hash links
+        const navLinks = document.querySelectorAll('#navmenu a');
+        navLinks.forEach(navmenu => {
+          navmenu.addEventListener('click', () => {
+            if (bodyElement?.classList.contains('mobile-nav-active')) {
+              mobileNavToogle();
+            }
+          });
+        });
+    
+        // Handle dropdown toggles
+        const dropdownToggles = document.querySelectorAll('.navmenu .toggle-dropdown');
+        dropdownToggles.forEach(toggle => {
+          toggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            toggle.parentNode?.classList.toggle('active');
+            toggle.parentNode?.nextElementSibling?.classList.toggle('dropdown-active');
+            e.stopImmediatePropagation();
+          });
+        });
+    
+        // Cleanup function to remove all event listeners
+        return () => {
+          mobileNavToggleBtn?.removeEventListener('click', mobileNavToogle);
+    
+          navLinks.forEach(navmenu => {
+            navmenu.removeEventListener('click', () => {
+              if (bodyElement?.classList.contains('mobile-nav-active')) {
+                mobileNavToogle();
+              }
+            });
+          });
+    
+          dropdownToggles.forEach(toggle => {
+            toggle.removeEventListener('click', (e) => {
+              e.preventDefault();
+              toggle.parentNode?.classList.toggle('active');
+              toggle.parentNode?.nextElementSibling?.classList.toggle('dropdown-active');
+              e.stopImmediatePropagation();
+            });
+          });
+        };
+      }, []);    
+
     const handleScrollToTop = (e) => {
         e.preventDefault();
         window.scrollTo({
