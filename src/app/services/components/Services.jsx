@@ -75,7 +75,7 @@ const Services = () => {
                     <nav id="navmenu" className="navmenu">
                         <ul>
                             <li><Link href="/">Home</Link></li>
-                            <li><Link href="/Linkbout">About</Link></li>
+                            <li><Link href="/about">About</Link></li>
                             <li><Link href="/services" className="active">Services</Link></li>
                             <li><Link href="/projects">Projects</Link></li>
                             {/* <li><Link href="blog.html">Blog</Link></li>
