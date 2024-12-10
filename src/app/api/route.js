@@ -32,6 +32,7 @@ export async function POST(request) {
             });
 
             const res = JSON.stringify(req);
+            console.log(res)
             return new Response(res, {
                 status: 200,
                 ok: true,

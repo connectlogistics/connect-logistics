@@ -67,7 +67,7 @@ const About = () => {
             <header id="header" className="header d-flex align-items-center fixed-top">
                 <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-                    <Link href="index.html" className="logo d-flex align-items-center">
+                    <Link href="" className="logo d-flex align-items-center">
                         {/* Uncomment the line below if you also wish to use an image logo */}
                         <Image width={60} height={100} src="/img/logo.png" alt=""  />
                         <h1 className="sitename">Connect Logistics</h1> <span>.</span>
@@ -79,7 +79,7 @@ const About = () => {
                             <li><Link href="/about" className="active">About</Link></li>
                             <li><Link href="/services">Services</Link></li>
                             <li><Link href="/projects">Projects</Link></li>
-                            {/* <li><Link href="blog.html">Blog</Link></li> */}
+                            {/* <li><Link href="">Blog</Link></li> */}
                             {/* <li className="dropdown"><Link href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></Link>
             <ul>
               <li><Link href="#">Dropdown 1</Link></li>
@@ -97,7 +97,7 @@ const About = () => {
               <li><Link href="#">Dropdown 4</Link></li>
             </ul>
           </li> */}
-                            {/* <li><Link href="contact.html">Contact</Link></li> */}
+                            {/* <li><Link href="">Contact</Link></li> */}
                         </ul>
                         <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
                     </nav>
@@ -113,7 +113,7 @@ const About = () => {
                         <h1>About</h1>
                         <nav className="breadcrumbs">
                             <ol>
-                                <li><Link href="index.html">Home</Link></li>
+                                <li><Link href="">Home</Link></li>
                                 <li className="current">About</li>
                             </ol>
                         </nav>
@@ -450,7 +450,7 @@ const About = () => {
                 <div className="container footer-top">
                     <div className="row gy-4">
                         <div className="col-lg-4 col-md-6 footer-about">
-                            <Link href="index.html" className="logo d-flex align-items-center">
+                            <Link href="" className="logo d-flex align-items-center">
                                 <span className="sitename">UpConstruction</span>
                             </Link>
                             <div className="footer-contact pt-3">

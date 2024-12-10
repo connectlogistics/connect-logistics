@@ -66,7 +66,7 @@ const Services = () => {
             <header id="header" className="header d-flex align-items-center fixed-top">
                 <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-                    <Link href="index.html" className="logo d-flex align-items-center">
+                    <Link href="" className="logo d-flex align-items-center">
                         {/* Uncomment the line below if you also wish to use an image logo */}
                         <Image width={60} height={100} src="/img/logo.png" alt=""  />
                         <h1 className="sitename">Connect Logistics</h1> <span>.</span>
@@ -112,7 +112,7 @@ const Services = () => {
                         <h1>Services</h1>
                         <nav className="breadcrumbs">
                             <ol>
-                                <li><Link href="index.html">Home</Link></li>
+                                <li><Link href="">Home</Link></li>
                                 <li className="current">Services</li>
                             </ol>
                         </nav>

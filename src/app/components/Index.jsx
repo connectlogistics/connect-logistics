@@ -86,7 +86,7 @@ const Index = () => {
           <li><Link href="/services">Services</Link></li>
           <li><Link href="/projects">Projects</Link></li>
           
-          {/* <li><Link href="contact.html">Contact</Link></li> */}
+          {/* <li><Link href="">Contact</Link></li> */}
         </ul>
         <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -554,7 +554,7 @@ const Index = () => {
                   <h4>App 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -566,7 +566,7 @@ const Index = () => {
                   <h4>Product 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -578,7 +578,7 @@ const Index = () => {
                   <h4>Branding 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -590,7 +590,7 @@ const Index = () => {
                   <h4>Books 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -602,7 +602,7 @@ const Index = () => {
                   <h4>App 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/remodeling-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -614,7 +614,7 @@ const Index = () => {
                   <h4>Product 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/construction-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -626,7 +626,7 @@ const Index = () => {
                   <h4>Branding 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/repairs-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -638,7 +638,7 @@ const Index = () => {
                   <h4>Books 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/design-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -650,7 +650,7 @@ const Index = () => {
                   <h4>App 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/remodeling-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -662,7 +662,7 @@ const Index = () => {
                   <h4>Product 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/construction-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -674,7 +674,7 @@ const Index = () => {
                   <h4>Branding 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/repairs-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -686,7 +686,7 @@ const Index = () => {
                   <h4>Books 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <Link href="/img/projects/design-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
-                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -737,7 +737,7 @@ const Index = () => {
 
                 <hr/>
 
-                <Link href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
+                <Link href="" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
 
               </div>
 
@@ -768,7 +768,7 @@ const Index = () => {
 
                 <hr/>
 
-                <Link href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
+                <Link href="" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
 
               </div>
 
@@ -799,7 +799,7 @@ const Index = () => {
 
                 <hr/>
 
-                <Link href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
+                <Link href="" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
 
               </div>
 
@@ -819,7 +819,7 @@ const Index = () => {
     <div className="container footer-top">
       <div className="row gy-4">
         <div className="col-lg-4 col-md-6 footer-about">
-          <Link href="index.html" className="logo d-flex align-items-center">
+          <Link href="" className="logo d-flex align-items-center">
             <span className="sitename">Connect Logistics</span>
           </Link>
           <div className="footer-contact pt-3">
