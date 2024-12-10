@@ -1,6 +1,10 @@
 'use client'
 import OverlayModal from '@/global_components/InquiryModal';
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useEffect } from 'react'
+
+
 
 
 const Index = () => {
@@ -69,20 +73,20 @@ const Index = () => {
   <header id="header" className="header d-flex align-items-center fixed-top">
     <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" className="logo d-flex align-items-center">
+      <Link href="/" className="logo d-flex align-items-center">
         {/* Uncomment the line below if you also wish to use an image logo */}
-        <img src="/img/logo.png" alt="" />
+        <Image width={60} height={100} src="/img/logo.png" alt=""  />
         <h1 className="sitename">Connect Logistics</h1> <span>.</span>
-      </a>
+      </Link>
 
       <nav id="navmenu" className="navmenu">
         <ul>
-          <li><a href="/" className="active">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/projects">Projects</a></li>
+          <li><Link href='/' className="active">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/services">Services</Link></li>
+          <li><Link href="/projects">Projects</Link></li>
           
-          {/* <li><a href="contact.html">Contact</a></li> */}
+          {/* <li><Link href="contact.html">Contact</Link></li> */}
         </ul>
         <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -110,29 +114,29 @@ const Index = () => {
       <div id="hero-carousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
 
         <div className="carousel-item">
-          <img src="/img/hero-carousel/Connect3.jpg" alt=""/>
+          <Image fill={true} src="/img/hero-carousel/Connect3.jpg" alt=""/>
         </div>
 
         <div className="carousel-item active">
-          <img src="/img/hero-carousel/Connect1.jpg" alt=""/>
+          <Image fill={true} src="/img/hero-carousel/Connect1.jpg" alt=""/>
         </div>
 
         <div className="carousel-item">
-          <img src="/img/hero-carousel/Connect2.jpg" alt=""/>
+          <Image fill={true} src="/img/hero-carousel/Connect2.jpg" alt=""/>
         </div>
 
         <div className="carousel-item">
-          <img src="/img/hero-carousel/hero-carousel-3.jpg" alt="" />
+          <Image fill={true} src="/img/hero-carousel/hero-carousel-3.jpg" alt="" />
         </div>
 
        
-        <a className="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <Link className="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
           <span className="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
+        </Link>
 
-        <a className="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <Link className="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
           <span className="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
+        </Link>
 
       </div>
 
@@ -215,7 +219,7 @@ const Index = () => {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg"><img src="/img/constructions-1.jpg" alt=""/></div>
+                      <div className="card-bg"><Image fill={true} src="/img/constructions-1.jpg" alt=""/></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -232,7 +236,7 @@ const Index = () => {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg"><img src="/img/constructions-2.jpg" alt=""/></div>
+                      <div className="card-bg"><Image fill={true} src="/img/constructions-2.jpg" alt=""/></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -249,7 +253,7 @@ const Index = () => {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg"><img src="/img/constructions-3.jpg" alt=""/></div>
+                      <div className="card-bg"><Image fill={true} src="/img/constructions-3.jpg" alt=""/></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -266,7 +270,7 @@ const Index = () => {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg"><img src="/img/constructions-4.jpg" alt=""/></div>
+                      <div className="card-bg"><Image fill={true} src="/img/constructions-4.jpg" alt=""/></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -305,7 +309,7 @@ const Index = () => {
                 <i className="fa-solid fa-mountain-city"></i>
               </div>
               <h3>Freight Forwarding</h3>
-              <p>Detail services such as sea freight, air freight, and overland transport. Mention specific services like FCL (Full Container Load) and LCL (Less than Container Load) consolidation, door-to-door delivery, and custom brokerage and clearance.</p>              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <p>Detail services such as sea freight, air freight, and overland transport. Mention specific services like FCL (Full Container Load) and LCL (Less than Container Load) consolidation, door-to-door delivery, and custom brokerage and clearance.</p>              <Link href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></Link>
             </div>
           </div>{/* End Service Item */}
 
@@ -316,7 +320,7 @@ const Index = () => {
               </div>
                  <h3>Supply Chain Management</h3>
                                     <p>Explain how your company manages the entire supply chain, including procurement, warehousing, and distribution. Highlight any specialized services like just-in-time delivery or vendor-managed inventory.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <Link href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></Link>
             </div>
           </div>{/* End Service Item */}
 
@@ -327,7 +331,7 @@ const Index = () => {
               </div>
               <h3>Warehousing and Storage</h3>
                                     <p>Describe your warehousing facilities, including security measures, climate-controlled storage, and inventory management systems.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <Link href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></Link>
             </div>
           </div>{/* End Service Item */}
 
@@ -338,7 +342,7 @@ const Index = () => {
               </div>
               <h3>Custom Brokerage Services</h3>
                                     <p>Detail your expertise in customs clearance, documentation, and compliance with regulatory requirements.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <Link href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></Link>
             </div>
           </div>{/* End Service Item */}
 
@@ -349,7 +353,7 @@ const Index = () => {
               </div>
               <h3>Tracking and Monitoring</h3>
                                     <p>Highlight any real-time tracking systems that allow customers to monitor their shipments. This can include integration with tracking tools and updates on shipment status.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <Link href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></Link>
             </div>
           </div>{/* End Service Item */}
 
@@ -360,7 +364,7 @@ const Index = () => {
               </div>
               <h3>Relocation Services</h3>
                 <p>If applicable, describe services related to moving and relocating goods, whether for personal or commercial purposes.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <Link href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></Link>
             </div>
           </div>{/* End Service Item */}
 
@@ -376,7 +380,7 @@ const Index = () => {
       <div className="container">
 
         <div className="row justify-content-around gy-4">
-          <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="/img/alt-services.jpg" alt=""/></div>
+          <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><Image fill={true} src="/img/alt-services.jpg" alt=""/></div>
 
           <div className="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <h3>Why Choose Connect Logistics Cargo LLC?</h3>
@@ -385,7 +389,7 @@ const Index = () => {
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i className="bi bi-easel flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Global Network</a></h4>
+                <h4><Link href="" className="stretched-link">Global Network</Link></h4>
                 <p>With a network of agents in multiple regions, we offer global reach and local expertise.</p>
               </div>
             </div>{/* End Icon Box */}
@@ -393,7 +397,7 @@ const Index = () => {
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i className="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Safe and Secure</a></h4>
+                <h4><Link href="" className="stretched-link">Safe and Secure</Link></h4>
                 <p>Our facilities are equipped with advanced security measures, including round-the-clock camera surveillance, to ensure the safety of your goods.</p>
               </div>
             </div>{/* End Icon Box */}
@@ -401,7 +405,7 @@ const Index = () => {
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
               <i className="bi bi-brightness-high flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Flexible Solutions</a></h4>
+                <h4><Link href="" className="stretched-link">Flexible Solutions</Link></h4>
                 <p>We offer tailored logistics solutions to meet the unique needs of each client, ensuring flexibility and adaptability.</p>
               </div>
             </div>{/* End Icon Box */}
@@ -409,7 +413,7 @@ const Index = () => {
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i className="bi bi-brightness-high flex-shrink-0"></i>
               <div>
-                <h4><a href="" className="stretched-link">Expert Team</a></h4>
+                <h4><Link href="" className="stretched-link">Expert Team</Link></h4>
                 <p>Our team of experienced professionals is dedicated to providing efficient and reliable logistics solutions.</p>
               </div>
             </div>{/* End Icon Box */}
@@ -429,27 +433,27 @@ const Index = () => {
         <ul className="nav nav-tabs row  g-2 d-flex" data-aos="fade-up" data-aos-delay="100" role="tablist">
 
           <li className="nav-item col-3" role="presentation">
-            <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
+            <Link href='' className="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
               <h4>Warehousing and Storage</h4>
-            </a>
+            </Link>
           </li>{/* End tab nav item */}
 
           <li className="nav-item col-3" role="presentation">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabIndex={-1} role="tab">
+            <Link href='' className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabIndex={-1} role="tab">
               <h4>Customer-Centric Approach</h4>
-            </a>{/* End tab nav item */}
+            </Link>{/* End tab nav item */}
 
           </li>
           <li className="nav-item col-3" role="presentation">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabIndex={-1} role="tab">
+            <Link href='' className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabIndex={-1} role="tab">
               <h4>Efficiency and Reliability</h4>
-            </a>
+            </Link>
           </li>{/* End tab nav item */}
 
           <li className="nav-item col-3" role="presentation">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabIndex={-1} role="tab">
+            <Link href='' className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabIndex={-1} role="tab">
               <h4>Safety and Security</h4>
-            </a>
+            </Link>
           </li>
           {/* End tab nav item */}
 
@@ -463,8 +467,8 @@ const Index = () => {
                 <h3>State-of-the-Art Warehousing</h3>
                 <p>Located in the Jebel Ali Free Zone, offering 510 square meters of storage space and additional open yard facilities for bulk storage. The warehouses are equipped with secure and climate-controlled storage options</p>
               </div>
-              <div className="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="/img/features-1.jpg" alt="" className="img-fluid"/>
+              <div className="col-lg-6 order-1  order-lg-2 text-center">
+                <Image width={600} height={300} src="/img/features-1.jpg" alt="" className="img-fluid"/>
               </div>
             </div>
           </div>{/* End tab content item */}
@@ -480,7 +484,7 @@ const Index = () => {
                 </ul>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="/img/features-2.jpg" alt="" className="img-fluid"/>
+                <Image width={600} height={300} src="/img/features-2.jpg" alt="" className="img-fluid"/>
               </div>
             </div>
           </div>{/* End tab content item */}
@@ -495,7 +499,7 @@ const Index = () => {
                 </ul>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="/img/features-3.jpg" alt="" className="img-fluid"/>
+                <Image width={600} height={300} src="/img/features-3.jpg" alt="" className="img-fluid"/>
               </div>
             </div>
           </div>{/* End tab content item */}
@@ -509,7 +513,7 @@ const Index = () => {
                 </ul>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="/img/features-4.jpg" alt="" className="img-fluid"/>
+                <Image width={600} height={300} src="/img/features-4.jpg" alt="" className="img-fluid"/>
               </div>
             </div>
           </div>{/* End tab content item */}
@@ -545,144 +549,144 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/remodeling-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/remodeling-1.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>App 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/construction-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/construction-1.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Product 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/repairs-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/repairs-1.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Branding 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/design-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/design-1.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Books 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/remodeling-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/remodeling-2.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>App 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/remodeling-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/remodeling-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/construction-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/construction-2.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Product 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/construction-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/construction-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/repairs-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/repairs-2.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Branding 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/repairs-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/repairs-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/design-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/design-2.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Books 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/design-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/design-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/remodeling-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/remodeling-3.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>App 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/remodeling-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/remodeling-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/construction-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/construction-3.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Product 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/construction-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/construction-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/repairs-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/repairs-3.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Branding 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/repairs-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/repairs-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div className="portfolio-content h-100">
-                <img src="/img/projects/design-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/projects/design-3.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Books 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="/img/projects/design-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link href="/img/projects/design-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  <Link href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             </div>{/* End Portfolio Item */}
@@ -713,7 +717,7 @@ const Index = () => {
             <div className="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
 
               <div className="post-img position-relative overflow-hidden">
-                <img src="/img/blog/blog-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/blog/blog-1.jpg" className="img-fluid" alt=""/>
                 <span className="post-date">December 12</span>
               </div>
 
@@ -733,7 +737,7 @@ const Index = () => {
 
                 <hr/>
 
-                <a href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></a>
+                <Link href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
 
               </div>
 
@@ -744,7 +748,7 @@ const Index = () => {
             <div className="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
 
               <div className="post-img position-relative overflow-hidden">
-                <img src="/img/blog/blog-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/blog/blog-2.jpg" className="img-fluid" alt=""/>
                 <span className="post-date">July 17</span>
               </div>
 
@@ -764,7 +768,7 @@ const Index = () => {
 
                 <hr/>
 
-                <a href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></a>
+                <Link href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
 
               </div>
 
@@ -775,7 +779,7 @@ const Index = () => {
             <div className="post-item position-relative h-100">
 
               <div className="post-img position-relative overflow-hidden">
-                <img src="/img/blog/blog-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/blog/blog-3.jpg" className="img-fluid" alt=""/>
                 <span className="post-date">September 05</span>
               </div>
 
@@ -795,7 +799,7 @@ const Index = () => {
 
                 <hr/>
 
-                <a href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></a>
+                <Link href="blog-details.html" className="readmore stretched-link"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
 
               </div>
 
@@ -815,9 +819,9 @@ const Index = () => {
     <div className="container footer-top">
       <div className="row gy-4">
         <div className="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" className="logo d-flex align-items-center">
+          <Link href="index.html" className="logo d-flex align-items-center">
             <span className="sitename">Connect Logistics</span>
-          </a>
+          </Link>
           <div className="footer-contact pt-3">
             <p> Dubai 6 - N518 Street - Mina Jebel Ali </p>
             <p>Jebel Ali Freezone - Dubai</p>
@@ -825,54 +829,54 @@ const Index = () => {
             <p><strong>Email:</strong> <span>connectclc.com</span></p>
           </div>
           <div className="social-links d-flex mt-4">
-            <a href=""><i className="bi bi-twitter-x"></i></a>
-            <a href=""><i className="bi bi-facebook"></i></a>
-            <a href=""><i className="bi bi-instagram"></i></a>
-            <a href=""><i className="bi bi-linkedin"></i></a>
+            <Link href=""><i className="bi bi-twitter-x"></i></Link>
+            <Link href=""><i className="bi bi-facebook"></i></Link>
+            <Link href=""><i className="bi bi-instagram"></i></Link>
+            <Link href=""><i className="bi bi-linkedin"></i></Link>
           </div>
         </div>
 
         <div className="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><Link href="#">Home</Link></li>
+            <li><Link href="#">About us</Link></li>
+            <li><Link href="#">Services</Link></li>
+            <li><Link href="#">Terms of service</Link></li>
+            <li><Link href="#">Privacy policy</Link></li>
           </ul>
         </div>
 
         <div className="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Air Freight</a></li>
-            <li><a href="#"> Sea Freight</a></li>
-            <li><a href="#">Car Lashing and Loading</a></li>
-            <li><a href="#"> Warehousing & Handling</a></li>
-            <li><a href="#">Packing & Removal</a></li>
+            <li><Link href="#">Air Freight</Link></li>
+            <li><Link href="#"> Sea Freight</Link></li>
+            <li><Link href="#">Car Lashing and Loading</Link></li>
+            <li><Link href="#"> Warehousing & Handling</Link></li>
+            <li><Link href="#">Packing & Removal</Link></li>
           </ul>
         </div>
 
         <div className="col-lg-2 col-md-3 footer-links">
           <h4>Hic solutasetp</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><Link href="#">Molestiae accusamus iure</Link></li>
+            <li><Link href="#">Excepturi dignissimos</Link></li>
+            <li><Link href="#">Suscipit distinctio</Link></li>
+            <li><Link href="#">Dilecta</Link></li>
+            <li><Link href="#">Sit quas consectetur</Link></li>
           </ul>
         </div>
 
         <div className="col-lg-2 col-md-3 footer-links">
           <h4>Nobis illum</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><Link href="#">Ipsam</Link></li>
+            <li><Link href="#">Laudantium dolorum</Link></li>
+            <li><Link href="#">Dinera</Link></li>
+            <li><Link href="#">Trodelas</Link></li>
+            <li><Link href="#">Flexo</Link></li>
           </ul>
         </div>
 
@@ -891,7 +895,7 @@ const Index = () => {
 
   {/* Scroll Top */} 
   <OverlayModal/>
-  <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center " onClick={handleScrollToTop} ><i className="bi bi-arrow-up-short"></i></a>
+  <Link href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center " onClick={handleScrollToTop} ><i className="bi bi-arrow-up-short"></i></Link>
 
   {/* Preloader */}
   {/* <div id="preloader"></div>         */}

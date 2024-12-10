@@ -1,6 +1,9 @@
 'use client'
 import React, { useEffect } from 'react'
 import OverlayModal from '@/global_components/InquiryModal';
+import Link from 'next/link';
+import Image from 'next/image';
+
 
 const About = () => {
     useEffect(()=>{
@@ -64,37 +67,37 @@ const About = () => {
             <header id="header" className="header d-flex align-items-center fixed-top">
                 <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-                    <a href="index.html" className="logo d-flex align-items-center">
+                    <Link href="index.html" className="logo d-flex align-items-center">
                         {/* Uncomment the line below if you also wish to use an image logo */}
-                        <img src="/img/logo.png" alt="" />
+                        <Image width={60} height={100} src="/img/logo.png" alt=""  />
                         <h1 className="sitename">Connect Logistics</h1> <span>.</span>
-                    </a>
+                    </Link>
 
                     <nav id="navmenu" className="navmenu">
                         <ul>
-                            <li><a href="/" >Home</a></li>
-                            <li><a href="/about" className="active">About</a></li>
-                            <li><a href="/services">Services</a></li>
-                            <li><a href="/projects">Projects</a></li>
-                            {/* <li><a href="blog.html">Blog</a></li> */}
-                            {/* <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <li><Link href="/" >Home</Link></li>
+                            <li><Link href="/about" className="active">About</Link></li>
+                            <li><Link href="/services">Services</Link></li>
+                            <li><Link href="/projects">Projects</Link></li>
+                            {/* <li><Link href="blog.html">Blog</Link></li> */}
+                            {/* <li className="dropdown"><Link href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></Link>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li className="dropdown"><a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><Link href="#">Dropdown 1</Link></li>
+              <li className="dropdown"><Link href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></Link>
                 <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
+                  <li><Link href="#">Deep Dropdown 1</Link></li>
+                  <li><Link href="#">Deep Dropdown 2</Link></li>
+                  <li><Link href="#">Deep Dropdown 3</Link></li>
+                  <li><Link href="#">Deep Dropdown 4</Link></li>
+                  <li><Link href="#">Deep Dropdown 5</Link></li>
                 </ul>
               </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><Link href="#">Dropdown 2</Link></li>
+              <li><Link href="#">Dropdown 3</Link></li>
+              <li><Link href="#">Dropdown 4</Link></li>
             </ul>
           </li> */}
-                            {/* <li><a href="contact.html">Contact</a></li> */}
+                            {/* <li><Link href="contact.html">Contact</Link></li> */}
                         </ul>
                         <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
                     </nav>
@@ -110,7 +113,7 @@ const About = () => {
                         <h1>About</h1>
                         <nav className="breadcrumbs">
                             <ol>
-                                <li><a href="index.html">Home</a></li>
+                                <li><Link href="index.html">Home</Link></li>
                                 <li className="current">About</li>
                             </ol>
                         </nav>
@@ -124,7 +127,7 @@ const About = () => {
 
                         <div className="row position-relative">
 
-                            <div className="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="/img/about.jpg" /></div>
+                            <div className="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><Image fill={true} src="/img/about.jpg" alt=''/></div>
 
                             <div className="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                                 <h2 className="inner-title">Company History</h2>
@@ -141,7 +144,7 @@ const About = () => {
 
                                     <div className="watch-video d-flex align-items-center position-relative">
                                         <i className="bi bi-play-circle"></i>
-                                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="glightbox stretched-link">Watch Video</a>
+                                        <Link href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="glightbox stretched-link">Watch Video</Link>
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +220,7 @@ const About = () => {
                     <div className="container">
 
                         <div className="row justify-content-around gy-4">
-                            <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="/img/alt-services.jpg" alt="" /></div>
+                            <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><Image fill={true} src="/img/alt-services.jpg" alt="" /></div>
 
                             <div className="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                                 <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
@@ -226,7 +229,7 @@ const About = () => {
                                 <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
                                     <i className="bi bi-easel flex-shrink-0"></i>
                                     <div>
-                                        <h4><a href="" className="stretched-link">Lorem Ipsum</a></h4>
+                                        <h4><Link href="" className="stretched-link">Lorem Ipsum</Link></h4>
                                         <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                                     </div>
                                 </div>{/* End Icon Box */}
@@ -234,7 +237,7 @@ const About = () => {
                                 <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
                                     <i className="bi bi-patch-check flex-shrink-0"></i>
                                     <div>
-                                        <h4><a href="" className="stretched-link">Nemo Enim</a></h4>
+                                        <h4><Link href="" className="stretched-link">Nemo Enim</Link></h4>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                                     </div>
                                 </div>{/* End Icon Box */}
@@ -242,7 +245,7 @@ const About = () => {
                                 <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
                                     <i className="bi bi-brightness-high flex-shrink-0"></i>
                                     <div>
-                                        <h4><a href="" className="stretched-link">Dine Pad</a></h4>
+                                        <h4><Link href="" className="stretched-link">Dine Pad</Link></h4>
                                         <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
                                     </div>
                                 </div>{/* End Icon Box */}
@@ -250,7 +253,7 @@ const About = () => {
                                 <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
                                     <i className="bi bi-brightness-high flex-shrink-0"></i>
                                     <div>
-                                        <h4><a href="" className="stretched-link">Tride clov</a></h4>
+                                        <h4><Link href="" className="stretched-link">Tride clov</Link></h4>
                                         <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
                                     </div>
                                 </div>{/* End Icon Box */}
@@ -312,7 +315,7 @@ const About = () => {
                             </div>
 
                             <div className="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-                                <img src="/img/features-3-2.jpg" alt="" />
+                                <Image fill={true} src="/img/features-3-2.jpg" alt="" />
                             </div>
 
                         </div>
@@ -336,12 +339,12 @@ const About = () => {
 
                             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
                                 <div className="member-img">
-                                    <img src="/img/team/team-1.jpg" className="img-fluid" alt="" />
+                                    <Image width={300} height={300} src="/img/team/team-1.jpg" className="img-fluid" alt="" />
                                     <div className="social">
-                                        <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                        <a href="#"><i className="bi bi-facebook"></i></a>
-                                        <a href="#"><i className="bi bi-instagram"></i></a>
-                                        <a href="#"><i className="bi bi-linkedin"></i></a>
+                                        <Link href="#"><i className="bi bi-twitter-x"></i></Link>
+                                        <Link href="#"><i className="bi bi-facebook"></i></Link>
+                                        <Link href="#"><i className="bi bi-instagram"></i></Link>
+                                        <Link href="#"><i className="bi bi-linkedin"></i></Link>
                                     </div>
                                 </div>
                                 <div className="member-info text-center">
@@ -353,12 +356,12 @@ const About = () => {
 
                             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
                                 <div className="member-img">
-                                    <img src="/img/team/team-2.jpg" className="img-fluid" alt="" />
+                                    <Image width={300} height={300} src="/img/team/team-2.jpg" className="img-fluid" alt="" />
                                     <div className="social">
-                                        <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                        <a href="#"><i className="bi bi-facebook"></i></a>
-                                        <a href="#"><i className="bi bi-instagram"></i></a>
-                                        <a href="#"><i className="bi bi-linkedin"></i></a>
+                                        <Link href="#"><i className="bi bi-twitter-x"></i></Link>
+                                        <Link href="#"><i className="bi bi-facebook"></i></Link>
+                                        <Link href="#"><i className="bi bi-instagram"></i></Link>
+                                        <Link href="#"><i className="bi bi-linkedin"></i></Link>
                                     </div>
                                 </div>
                                 <div className="member-info text-center">
@@ -370,12 +373,12 @@ const About = () => {
 
                             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
                                 <div className="member-img">
-                                    <img src="/img/team/team-3.jpg" className="img-fluid" alt="" />
+                                    <Image width={300} height={300} src="/img/team/team-3.jpg" className="img-fluid" alt="" />
                                     <div className="social">
-                                        <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                        <a href="#"><i className="bi bi-facebook"></i></a>
-                                        <a href="#"><i className="bi bi-instagram"></i></a>
-                                        <a href="#"><i className="bi bi-linkedin"></i></a>
+                                        <Link href="#"><i className="bi bi-twitter-x"></i></Link>
+                                        <Link href="#"><i className="bi bi-facebook"></i></Link>
+                                        <Link href="#"><i className="bi bi-instagram"></i></Link>
+                                        <Link href="#"><i className="bi bi-linkedin"></i></Link>
                                     </div>
                                 </div>
                                 <div className="member-info text-center">
@@ -387,12 +390,12 @@ const About = () => {
 
                             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
                                 <div className="member-img">
-                                    <img src="/img/team/team-4.jpg" className="img-fluid" alt="" />
+                                    <Image width={300} height={300} src="/img/team/team-4.jpg" className="img-fluid" alt="" />
                                     <div className="social">
-                                        <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                        <a href="#"><i className="bi bi-facebook"></i></a>
-                                        <a href="#"><i className="bi bi-instagram"></i></a>
-                                        <a href="#"><i className="bi bi-linkedin"></i></a>
+                                        <Link href="#"><i className="bi bi-twitter-x"></i></Link>
+                                        <Link href="#"><i className="bi bi-facebook"></i></Link>
+                                        <Link href="#"><i className="bi bi-instagram"></i></Link>
+                                        <Link href="#"><i className="bi bi-linkedin"></i></Link>
                                     </div>
                                 </div>
                                 <div className="member-info text-center">
@@ -404,12 +407,12 @@ const About = () => {
 
                             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
                                 <div className="member-img">
-                                    <img src="/img/team/team-5.jpg" className="img-fluid" alt="" />
+                                    <Image width={300} height={300} src="/img/team/team-5.jpg" className="img-fluid" alt="" />
                                     <div className="social">
-                                        <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                        <a href="#"><i className="bi bi-facebook"></i></a>
-                                        <a href="#"><i className="bi bi-instagram"></i></a>
-                                        <a href="#"><i className="bi bi-linkedin"></i></a>
+                                        <Link href="#"><i className="bi bi-twitter-x"></i></Link>
+                                        <Link href="#"><i className="bi bi-facebook"></i></Link>
+                                        <Link href="#"><i className="bi bi-instagram"></i></Link>
+                                        <Link href="#"><i className="bi bi-linkedin"></i></Link>
                                     </div>
                                 </div>
                                 <div className="member-info text-center">
@@ -421,12 +424,12 @@ const About = () => {
 
                             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
                                 <div className="member-img">
-                                    <img src="/img/team/team-6.jpg" className="img-fluid" alt="" />
+                                    <Image width={300} height={300} src="/img/team/team-6.jpg" className="img-fluid" alt="" />
                                     <div className="social">
-                                        <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                        <a href="#"><i className="bi bi-facebook"></i></a>
-                                        <a href="#"><i className="bi bi-instagram"></i></a>
-                                        <a href="#"><i className="bi bi-linkedin"></i></a>
+                                        <Link href="#"><i className="bi bi-twitter-x"></i></Link>
+                                        <Link href="#"><i className="bi bi-facebook"></i></Link>
+                                        <Link href="#"><i className="bi bi-instagram"></i></Link>
+                                        <Link href="#"><i className="bi bi-linkedin"></i></Link>
                                     </div>
                                 </div>
                                 <div className="member-info text-center">
@@ -439,146 +442,7 @@ const About = () => {
                         </div>
 
                     </div>
-
-                </section>{/* /Team Section */}
-
-                {/* Testimonials Section */}
-                <section id="testimonials" className="testimonials section">
-
-                    {/* Section Title */}
-                    <div className="container section-title" data-aos="fade-up">
-                        <h2>Testimonials</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                    </div>{/* End Section Title */}
-
-                    <div className="container" data-aos="fade-up" data-aos-delay="100">
-
-                        <div className="swiper init-swiper">
-                            {/* <script type="application/json" className="swiper-config">
-                                {{
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    },
-                                    "breakpoints": {
-                                        "320": {
-                                            "slidesPerView": 1,
-                                            "spaceBetween": 40
-                                        },
-                                        "1200": {
-                                            "slidesPerView": 2,
-                                            "spaceBetween": 20
-                                        }
-                                    }
-                                }}
-                            </script> */}
-                            <div className="swiper-wrapper">
-
-                                <div className="swiper-slide">
-                                    <div className="testimonial-wrap">
-                                        <div className="testimonial-item">
-                                            <img src="/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
-                                            <h3>Saul Goodman</h3>
-                                            <h4>Ceo &amp; Founder</h4>
-                                            <div className="stars">
-                                                <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                            </div>
-                                            <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                                                <i className="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>{/* End testimonial item */}
-
-                                <div className="swiper-slide">
-                                    <div className="testimonial-wrap">
-                                        <div className="testimonial-item">
-                                            <img src="/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
-                                            <h3>Sara Wilsson</h3>
-                                            <h4>Designer</h4>
-                                            <div className="stars">
-                                                <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                            </div>
-                                            <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                                                <i className="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>{/* End testimonial item */}
-
-                                <div className="swiper-slide">
-                                    <div className="testimonial-wrap">
-                                        <div className="testimonial-item">
-                                            <img src="/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
-                                            <h3>Jena Karlis</h3>
-                                            <h4>Store Owner</h4>
-                                            <div className="stars">
-                                                <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                            </div>
-                                            <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                                                <i className="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>{/* End testimonial item */}
-
-                                <div className="swiper-slide">
-                                    <div className="testimonial-wrap">
-                                        <div className="testimonial-item">
-                                            <img src="/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
-                                            <h3>Matt Brandon</h3>
-                                            <h4>Freelancer</h4>
-                                            <div className="stars">
-                                                <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                            </div>
-                                            <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                                                <i className="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>{/* End testimonial item */}
-
-                                <div className="swiper-slide">
-                                    <div className="testimonial-wrap">
-                                        <div className="testimonial-item">
-                                            <img src="/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
-                                            <h3>John Larson</h3>
-                                            <h4>Entrepreneur</h4>
-                                            <div className="stars">
-                                                <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                            </div>
-                                            <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                                                <i className="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>{/* End testimonial item */}
-
-                            </div>
-                            <div className="swiper-pagination"></div>
-                        </div>
-
-                    </div>
-
-                </section>{/* /Testimonials Section */}
-
+                </section>
             </main>
 
             <footer id="footer" className="footer dark-background">
@@ -586,9 +450,9 @@ const About = () => {
                 <div className="container footer-top">
                     <div className="row gy-4">
                         <div className="col-lg-4 col-md-6 footer-about">
-                            <a href="index.html" className="logo d-flex align-items-center">
+                            <Link href="index.html" className="logo d-flex align-items-center">
                                 <span className="sitename">UpConstruction</span>
-                            </a>
+                            </Link>
                             <div className="footer-contact pt-3">
                                 <p>A108 Adam Street</p>
                                 <p>New York, NY 535022</p>
@@ -596,54 +460,54 @@ const About = () => {
                                 <p><strong>Email:</strong> <span>info@example.com</span></p>
                             </div>
                             <div className="social-links d-flex mt-4">
-                                <a href=""><i className="bi bi-twitter-x"></i></a>
-                                <a href=""><i className="bi bi-facebook"></i></a>
-                                <a href=""><i className="bi bi-instagram"></i></a>
-                                <a href=""><i className="bi bi-linkedin"></i></a>
+                                <Link href=""><i className="bi bi-twitter-x"></i></Link>
+                                <Link href=""><i className="bi bi-facebook"></i></Link>
+                                <Link href=""><i className="bi bi-instagram"></i></Link>
+                                <Link href=""><i className="bi bi-linkedin"></i></Link>
                             </div>
                         </div>
 
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Terms of service</a></li>
-                                <li><a href="#">Privacy policy</a></li>
+                                <li><Link href="#">Home</Link></li>
+                                <li><Link href="#">About us</Link></li>
+                                <li><Link href="#">Services</Link></li>
+                                <li><Link href="#">Terms of service</Link></li>
+                                <li><Link href="#">Privacy policy</Link></li>
                             </ul>
                         </div>
 
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Our Services</h4>
                             <ul>
-                            <li><a href="#">Air Freight</a></li>
-            <li><a href="#"> Sea Freight</a></li>
-            <li><a href="#">Car Lashing and Loading</a></li>
-            <li><a href="#"> Warehousing & Handling</a></li>
-            <li><a href="#">Packing & Removal</a></li>
+                            <li><Link href="#">Air Freight</Link></li>
+            <li><Link href="#"> Sea Freight</Link></li>
+            <li><Link href="#">Car Lashing and Loading</Link></li>
+            <li><Link href="#"> Warehousing & Handling</Link></li>
+            <li><Link href="#">Packing & Removal</Link></li>
                             </ul>
                         </div>
 
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Hic solutasetp</h4>
                             <ul>
-                                <li><a href="#">Molestiae accusamus iure</a></li>
-                                <li><a href="#">Excepturi dignissimos</a></li>
-                                <li><a href="#">Suscipit distinctio</a></li>
-                                <li><a href="#">Dilecta</a></li>
-                                <li><a href="#">Sit quas consectetur</a></li>
+                                <li><Link href="#">Molestiae accusamus iure</Link></li>
+                                <li><Link href="#">Excepturi dignissimos</Link></li>
+                                <li><Link href="#">Suscipit distinctio</Link></li>
+                                <li><Link href="#">Dilecta</Link></li>
+                                <li><Link href="#">Sit quas consectetur</Link></li>
                             </ul>
                         </div>
 
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Nobis illum</h4>
                             <ul>
-                                <li><a href="#">Ipsam</a></li>
-                                <li><a href="#">Laudantium dolorum</a></li>
-                                <li><a href="#">Dinera</a></li>
-                                <li><a href="#">Trodelas</a></li>
-                                <li><a href="#">Flexo</a></li>
+                                <li><Link href="#">Ipsam</Link></li>
+                                <li><Link href="#">Laudantium dolorum</Link></li>
+                                <li><Link href="#">Dinera</Link></li>
+                                <li><Link href="#">Trodelas</Link></li>
+                                <li><Link href="#">Flexo</Link></li>
                             </ul>
                         </div>
 
@@ -657,7 +521,7 @@ const About = () => {
                         {/* You can delete the links only if you've purchased the pro version. */}
                         {/* Licensing information: https://bootstrapmade.com/license/ */}
                         {/* Purchase the pro version with working PHP/AJAX contact form: [buy-url] */}
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        Designed by <Link href="https://bootstrapmade.com/">BootstrapMade</Link>
                     </div>
                 </div>
 
@@ -665,7 +529,7 @@ const About = () => {
 
             {/* Scroll Top */}
             <OverlayModal/>
-            <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center " onClick={handleScrollToTop}><i className="bi bi-arrow-up-short"></i></a>
+            <Link href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center " onClick={handleScrollToTop}><i className="bi bi-arrow-up-short"></i></Link>
         </>
     )
 }
