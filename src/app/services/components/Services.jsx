@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import OverlayModal from '@/global_components/InquiryModal';
 import Image from 'next/image';
 import Link from 'next/link';
+import AOS from 'aos';
 
 const Services = () => {
     useEffect(()=>{

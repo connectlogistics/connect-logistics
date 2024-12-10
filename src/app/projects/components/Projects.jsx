@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import OverlayModal from '@/global_components/InquiryModal';
 import Link from 'next/link';
 import Image from 'next/image';
+import AOS from 'aos';
 
 
 const Projects = () => {

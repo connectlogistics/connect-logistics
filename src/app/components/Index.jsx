@@ -3,6 +3,7 @@ import OverlayModal from '@/global_components/InquiryModal';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react'
+import AOS from 'aos';
 
 
 
