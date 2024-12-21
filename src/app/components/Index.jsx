@@ -138,7 +138,7 @@ const Index = () => {
       </Link>
 
       <nav id="navmenu" className="navmenu">
-        {/* <ul> */}
+        <ul>
           <li><Link href='/' className="active">Home</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/services">Services</Link></li>
@@ -916,27 +916,7 @@ const Index = () => {
           </ul>
         </div>
 
-        <div className="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><Link href="#">Molestiae accusamus iure</Link></li>
-            <li><Link href="#">Excepturi dignissimos</Link></li>
-            <li><Link href="#">Suscipit distinctio</Link></li>
-            <li><Link href="#">Dilecta</Link></li>
-            <li><Link href="#">Sit quas consectetur</Link></li>
-          </ul>
-        </div>
-
-        <div className="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><Link href="#">Ipsam</Link></li>
-            <li><Link href="#">Laudantium dolorum</Link></li>
-            <li><Link href="#">Dinera</Link></li>
-            <li><Link href="#">Trodelas</Link></li>
-            <li><Link href="#">Flexo</Link></li>
-          </ul>
-        </div>
+       
 
       </div>
     </div>
