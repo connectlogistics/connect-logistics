@@ -138,7 +138,7 @@ const Index = () => {
       </Link>
 
       <nav id="navmenu" className="navmenu">
-        <ul>
+        <ul
           <li><Link href='/' className="active">Home</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/services">Services</Link></li>
