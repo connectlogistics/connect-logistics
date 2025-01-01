@@ -269,7 +269,7 @@ const Services = () => {
 
                             <div className="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
                                 <h3>Streamlining Your Logistics Operations</h3>
-                                <p>In today's fast-paced business environment, efficient logistics management is essential for success. At Connect  Logistics, we specialize in providing comprehensive logistics solutions tailored to meet the unique needs of your business. Our services encompass everything from freight transportation and warehousing to supply chain management and real-time tracking.</p>
+                                <p>In todays fast-paced business environment, efficient logistics management is essential for success. At Connect  Logistics, we specialize in providing comprehensive logistics solutions tailored to meet the unique needs of your business. Our services encompass everything from freight transportation and warehousing to supply chain management and real-time tracking.</p>
 
                                 <div className="row">
 
