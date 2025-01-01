@@ -200,7 +200,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/remodeling-1.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/forall/pexels-alexander-isreb-880417-1797428.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>App 1</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -212,7 +212,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/construction-1.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/forall/pexels-elevate-1267338 (1).jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Product 1</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -224,7 +224,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/repairs-1.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/forall/pexels-tomfisk-2231744.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Branding 1</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -236,7 +236,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/design-1.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/forall/pexels-tomfisk-3057960.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Books 1</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -248,7 +248,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/remodeling-2.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/c1-a.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>App 2</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -260,7 +260,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/construction-2.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/c1-b.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Product 2</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -272,7 +272,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/repairs-2.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/2-a.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Branding 2</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -284,7 +284,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/design-2.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/2-b.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Books 2</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -296,7 +296,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/remodeling-3.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/2-c.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>App 3</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -308,7 +308,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/construction-3.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/3-a.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Product 3</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -320,7 +320,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/repairs-3.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/3-b.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Branding 3</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -332,7 +332,7 @@ const Projects = () => {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                                     <div className="portfolio-content h-100">
-                                        <Image width={415} height={300} src="/img/projects/design-3.jpg" className="img-fluid" alt="" />
+                                        <Image width={415} height={300} src="/img/3-c.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Books 3</h4>
                                             <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -396,27 +396,7 @@ const Projects = () => {
                             </ul>
                         </div>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Hic solutasetp</h4>
-                            <ul>
-                                <li><Link href="#">Molestiae accusamus iure</Link></li>
-                                <li><Link href="#">Excepturi dignissimos</Link></li>
-                                <li><Link href="#">Suscipit distinctio</Link></li>
-                                <li><Link href="#">Dilecta</Link></li>
-                                <li><Link href="#">Sit quas consectetur</Link></li>
-                            </ul>
-                        </div>
-
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Nobis illum</h4>
-                            <ul>
-                                <li><Link href="#">Ipsam</Link></li>
-                                <li><Link href="#">Laudantium dolorum</Link></li>
-                                <li><Link href="#">Dinera</Link></li>
-                                <li><Link href="#">Trodelas</Link></li>
-                                <li><Link href="#">Flexo</Link></li>
-                            </ul>
-                        </div>
+                      
 
                     </div>
                 </div>

@@ -186,7 +186,7 @@ const About = () => {
 
                         <div className="row position-relative">
 
-                            <div className="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><Image fill={true} src="/img/about.jpg" alt=''/></div>
+                            <div className="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><Image fill={true} src="/img/about1.jpg" alt=''/></div>
 
                             <div className="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                                 <h2 className="inner-title">Company History</h2>
@@ -220,7 +220,7 @@ const About = () => {
                     {/* Section Title */}
                     <div className="container section-title" data-aos="fade-up">
                         <h2>Stats</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                        {/* <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> */}
                     </div>{/* End Section Title */}
 
                     <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -274,114 +274,11 @@ const About = () => {
                 </section>{/* /Stats Counter Section */}
 
                 {/* Alt Services Section */}
-                <section id="alt-services" className="alt-services section">
-
-                    <div className="container">
-
-                        <div className="row justify-content-around gy-4">
-                            <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><Image fill={true} src="/img/alt-services.jpg" alt="" /></div>
-
-                            <div className="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                                <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-                                <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
-
-                                <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-                                    <i className="bi bi-easel flex-shrink-0"></i>
-                                    <div>
-                                        <h4><Link href="" className="stretched-link">Lorem Ipsum</Link></h4>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                                    </div>
-                                </div>{/* End Icon Box */}
-
-                                <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-                                    <i className="bi bi-patch-check flex-shrink-0"></i>
-                                    <div>
-                                        <h4><Link href="" className="stretched-link">Nemo Enim</Link></h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                                    </div>
-                                </div>{/* End Icon Box */}
-
-                                <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-                                    <i className="bi bi-brightness-high flex-shrink-0"></i>
-                                    <div>
-                                        <h4><Link href="" className="stretched-link">Dine Pad</Link></h4>
-                                        <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-                                    </div>
-                                </div>{/* End Icon Box */}
-
-                                <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-                                    <i className="bi bi-brightness-high flex-shrink-0"></i>
-                                    <div>
-                                        <h4><Link href="" className="stretched-link">Tride clov</Link></h4>
-                                        <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
-                                    </div>
-                                </div>{/* End Icon Box */}
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </section>{/* /Alt Services Section */}
+               
+                {/* /Alt Services Section */}
 
                 {/* Alt Services 2 Section */}
-                <section id="alt-services-2" className="alt-services-2 section">
-
-                    <div className="container">
-
-                        <div className="row justify-content-around gy-4">
-
-                            <div className="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                                <h3>Enim quis est voluptatibus aliquid consequatur</h3>
-                                <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
-
-                                <div className="row">
-
-                                    <div className="col-lg-6 icon-box d-flex">
-                                        <i className="bi bi-easel flex-shrink-0"></i>
-                                        <div>
-                                            <h4>Lorem Ipsum</h4>
-                                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias </p>
-                                        </div>
-                                    </div>{/* End Icon Box */}
-
-                                    <div className="col-lg-6 icon-box d-flex">
-                                        <i className="bi bi-patch-check flex-shrink-0"></i>
-                                        <div>
-                                            <h4>Nemo Enim</h4>
-                                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiise</p>
-                                        </div>
-                                    </div>{/* End Icon Box */}
-
-                                    <div className="col-lg-6 icon-box d-flex">
-                                        <i className="bi bi-brightness-high flex-shrink-0"></i>
-                                        <div>
-                                            <h4>Dine Pad</h4>
-                                            <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit</p>
-                                        </div>
-                                    </div>{/* End Icon Box */}
-
-                                    <div className="col-lg-6 icon-box d-flex">
-                                        <i className="bi bi-brightness-high flex-shrink-0"></i>
-                                        <div>
-                                            <h4>Tride clov</h4>
-                                            <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit</p>
-                                        </div>
-                                    </div>{/* End Icon Box */}
-
-                                </div>
-
-                            </div>
-
-                            <div className="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-                                <Image fill={true} src="/img/features-3-2.jpg" alt="" />
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </section>{/* /Alt Services 2 Section */}
+               {/* /Alt Services 2 Section */}
 
                 {/* Team Section */}
                 <section id="team" className="team section">
@@ -389,7 +286,7 @@ const About = () => {
                     {/* Section Title */}
                     <div className="container section-title" data-aos="fade-up">
                         <h2>Team</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                        {/* <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> */}
                     </div>{/* End Section Title */}
 
                     <div className="container">
@@ -409,7 +306,7 @@ const About = () => {
                                 <div className="member-info text-center">
                                     <h4>Walter White</h4>
                                     <span>Chief Executive Officer</span>
-                                    <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                                    {/* <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p> */}
                                 </div>
                             </div>{/* End Team Member */}
 
@@ -426,7 +323,7 @@ const About = () => {
                                 <div className="member-info text-center">
                                     <h4>Sarah Jhonson</h4>
                                     <span>Product Manager</span>
-                                    <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                                    {/* <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p> */}
                                 </div>
                             </div>{/* End Team Member */}
 
@@ -443,7 +340,7 @@ const About = () => {
                                 <div className="member-info text-center">
                                     <h4>William Anderson</h4>
                                     <span>CTO</span>
-                                    <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                                    {/* <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p> */}
                                 </div>
                             </div>{/* End Team Member */}
 
@@ -460,7 +357,7 @@ const About = () => {
                                 <div className="member-info text-center">
                                     <h4>Amanda Jepson</h4>
                                     <span>Accountant</span>
-                                    <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+                                    {/* <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p> */}
                                 </div>
                             </div>{/* End Team Member */}
 
@@ -477,7 +374,7 @@ const About = () => {
                                 <div className="member-info text-center">
                                     <h4>Brian Doe</h4>
                                     <span>Marketing</span>
-                                    <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+                                    {/* <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p> */}
                                 </div>
                             </div>{/* End Team Member */}
 
@@ -494,7 +391,7 @@ const About = () => {
                                 <div className="member-info text-center">
                                     <h4>Josepha Palas</h4>
                                     <span>Operation</span>
-                                    <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+                                    {/* <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p> */}
                                 </div>
                             </div>{/* End Team Member */}
 
@@ -506,85 +403,62 @@ const About = () => {
 
             <footer id="footer" className="footer dark-background">
 
-                <div className="container footer-top">
-                    <div className="row gy-4">
-                        <div className="col-lg-4 col-md-6 footer-about">
-                            <Link href="" className="logo d-flex align-items-center">
-                                <span className="sitename">UpConstruction</span>
-                            </Link>
-                            <div className="footer-contact pt-3">
-                                <p>A108 Adam Street</p>
-                                <p>New York, NY 535022</p>
-                                <p className="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                                <p><strong>Email:</strong> <span>info@example.com</span></p>
-                            </div>
-                            <div className="social-links d-flex mt-4">
-                                <Link href=""><i className="bi bi-twitter-x"></i></Link>
-                                <Link href=""><i className="bi bi-facebook"></i></Link>
-                                <Link href=""><i className="bi bi-instagram"></i></Link>
-                                <Link href=""><i className="bi bi-linkedin"></i></Link>
-                            </div>
-                        </div>
+<div className="container footer-top">
+  <div className="row gy-4">
+    <div className="col-lg-4 col-md-6 footer-about">
+      <Link href="" className="logo d-flex align-items-center">
+        <span className="sitename">Connect Logistics</span>
+      </Link>
+      <div className="footer-contact pt-3">
+        <p> Dubai 6 - N518 Street - Mina Jebel Ali </p>
+        <p>Jebel Ali Freezone - Dubai</p>
+        <p className="mt-3"><strong>Phone:</strong> <span>+971 52 695 5786</span></p>
+        <p><strong>Email:</strong> <span>connectclc.com</span></p>
+      </div>
+      <div className="social-links d-flex mt-4">
+        <Link href=""><i className="bi bi-twitter-x"></i></Link>
+        <Link href=""><i className="bi bi-facebook"></i></Link>
+        <Link href=""><i className="bi bi-instagram"></i></Link>
+        <Link href=""><i className="bi bi-linkedin"></i></Link>
+      </div>
+    </div>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Useful Links</h4>
-                            <ul>
-                                <li><Link href="#">Home</Link></li>
-                                <li><Link href="#">About us</Link></li>
-                                <li><Link href="#">Services</Link></li>
-                                <li><Link href="#">Terms of service</Link></li>
-                                <li><Link href="#">Privacy policy</Link></li>
-                            </ul>
-                        </div>
+    <div className="col-lg-2 col-md-3 footer-links">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><Link href="#">Home</Link></li>
+        <li><Link href="#">About us</Link></li>
+        <li><Link href="#">Services</Link></li>
+        <li><Link href="#">Terms of service</Link></li>
+        <li><Link href="#">Privacy policy</Link></li>
+      </ul>
+    </div>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Our Services</h4>
-                            <ul>
-                            <li><Link href="#">Air Freight</Link></li>
-            <li><Link href="#"> Sea Freight</Link></li>
-            <li><Link href="#">Car Lashing and Loading</Link></li>
-            <li><Link href="#"> Warehousing & Handling</Link></li>
-            <li><Link href="#">Packing & Removal</Link></li>
-                            </ul>
-                        </div>
+    <div className="col-lg-2 col-md-3 footer-links">
+      <h4>Our Services</h4>
+      <ul>
+        <li><Link href="#">Air Freight</Link></li>
+        <li><Link href="#"> Sea Freight</Link></li>
+        <li><Link href="#">Car Lashing and Loading</Link></li>
+        <li><Link href="#"> Warehousing & Handling</Link></li>
+        <li><Link href="#">Packing & Removal</Link></li>
+      </ul>
+    </div>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Hic solutasetp</h4>
-                            <ul>
-                                <li><Link href="#">Molestiae accusamus iure</Link></li>
-                                <li><Link href="#">Excepturi dignissimos</Link></li>
-                                <li><Link href="#">Suscipit distinctio</Link></li>
-                                <li><Link href="#">Dilecta</Link></li>
-                                <li><Link href="#">Sit quas consectetur</Link></li>
-                            </ul>
-                        </div>
+   
 
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Nobis illum</h4>
-                            <ul>
-                                <li><Link href="#">Ipsam</Link></li>
-                                <li><Link href="#">Laudantium dolorum</Link></li>
-                                <li><Link href="#">Dinera</Link></li>
-                                <li><Link href="#">Trodelas</Link></li>
-                                <li><Link href="#">Flexo</Link></li>
-                            </ul>
-                        </div>
+  </div>
+</div>
 
-                    </div>
-                </div>
+<div className="container copyright text-center mt-4">
+  <p>© <span>Copyright</span> <strong className="px-1 sitename">Connect Logistics</strong> <span>All Rights Reserved</span></p>
+  <div className="credits">
+  
+    
+  </div>
+</div>
 
-                <div className="container copyright text-center mt-4">
-                    <p>© <span>Copyright</span> <strong className="px-1 sitename">UpConstruction</strong> <span>All Rights Reserved</span></p>
-                    <div className="credits">
-                        {/* All the links in the footer should remain intact. */}
-                        {/* You can delete the links only if you've purchased the pro version. */}
-                        {/* Licensing information: https://bootstrapmade.com/license/ */}
-                        {/* Purchase the pro version with working PHP/AJAX contact form: [buy-url] */}
-                        Designed by <Link href="https://bootstrapmade.com/">BootstrapMade</Link>
-                    </div>
-                </div>
-
-            </footer>
+</footer>
 
             {/* Scroll Top */}
             <OverlayModal/>

@@ -183,9 +183,9 @@ const Index = () => {
           <Image fill={true} src="/img/hero-carousel/Connect2.jpg" alt=""/>
         </div>
 
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <Image fill={true} src="/img/hero-carousel/hero-carousel-3.jpg" alt="" />
-        </div>
+        </div> */}
 
        
         <Link className="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -354,8 +354,7 @@ const Index = () => {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>{/* End Section Title */}
+             </div>{/* End Section Title */}
 
       <div className="container">
 
@@ -438,10 +437,10 @@ const Index = () => {
       <div className="container">
 
         <div className="row justify-content-around gy-4">
-          <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><Image fill={true} src="/img/alt-services.jpg" alt=""/></div>
+          <div className="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><Image fill={true} src="/img/blog/foreman-control-loading-containers-box-600nw-2475083055.jpg" alt=""/></div>
 
           <div className="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Why Choose Connect Logistics Cargo LLC?</h3>
+            <h3>Why Choose Connect Logistics Cargo LLC?</h3>f
             {/* <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p> */}
 
             <div className="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
@@ -526,7 +525,7 @@ const Index = () => {
                 <p>Located in the Jebel Ali Free Zone, offering 510 square meters of storage space and additional open yard facilities for bulk storage. The warehouses are equipped with secure and climate-controlled storage options</p>
               </div>
               <div className="col-lg-6 order-1  order-lg-2 text-center">
-                <Image width={600} height={300} src="/img/features-1.jpg" alt="" className="img-fluid"/>
+                <Image width={600} height={300} src="/img/pexels-tiger-lily-4483610.jpg" alt="" className="img-fluid"/>
               </div>
             </div>
           </div>{/* End tab content item */}
@@ -588,7 +587,7 @@ const Index = () => {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Projects</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        {/* <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> */}
       </div>{/* End Section Title */}
 
       <div className="container">
@@ -607,11 +606,11 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/remodeling-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/forall/pexels-alexander-isreb-880417-1797428.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <Link href="/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
+                  {/* <h4>App 1</h4>
+                  <p></p> */}
+                  <Link href="/img/forall/pexels-alexander-isreb-880417-1797428.jpg" title="App 1" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
                   <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
@@ -619,10 +618,10 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/construction-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/forall/pexels-elevate-1267338 (1).jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  {/* <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p> */}
                   <Link href="/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
                   <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
@@ -631,10 +630,10 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/repairs-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/forall/pexels-tomfisk-2231744.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  {/* <h4>Branding 1</h4> */}
+                  {/* <p>Lorem ipsum, dolor sit amet consectetur</p> */}
                   <Link href="/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
                   <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
@@ -643,10 +642,10 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/design-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/forall/pexels-tomfisk-3057960.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  {/* <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p> */}
                   <Link href="/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
                   <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
@@ -655,7 +654,7 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/remodeling-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/c1-a.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>App 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -667,7 +666,7 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/construction-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/c1-b.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Product 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -679,7 +678,7 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/repairs-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/2-a.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Branding 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -691,7 +690,7 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/design-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/2-b.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Books 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -703,10 +702,10 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/remodeling-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/2-c.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  {/* <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p> */}
                   <Link href="/img/projects/remodeling-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></Link>
                   <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
@@ -715,7 +714,7 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/construction-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/3-a.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Product 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -727,7 +726,7 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/repairs-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/3-b.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Branding 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -739,7 +738,7 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div className="portfolio-content h-100">
-                <Image width={415} height={300} src="/img/projects/design-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/3-c.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-info">
                   <h4>Books 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -747,7 +746,8 @@ const Index = () => {
                   <Link href="" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
-            </div>{/* End Portfolio Item */}
+            </div>
+            {/* End Portfolio Item */}
 
           </div>{/* End Portfolio Container */}
 
@@ -764,7 +764,7 @@ const Index = () => {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Recent Blog Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        {/* <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> */}
       </div>{/* End Section Title */}
 
       <div className="container">
@@ -775,22 +775,22 @@ const Index = () => {
             <div className="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
 
               <div className="post-img position-relative overflow-hidden">
-                <Image width={415} height={300} src="/img/blog/blog-1.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/blog1a.jpg" className="img-fluid" alt=""/>
                 <span className="post-date">December 12</span>
               </div>
 
               <div className="post-content d-flex flex-column">
 
-                <h3 className="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+                <h3 className="post-title">Understanding the Basics of Logistics</h3>
 
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
                     <i className="bi bi-person"></i> <span className="ps-2">Julia Parker</span>
                   </div>
-                  <span className="px-3 text-black-50">/</span>
-                  <div className="d-flex align-items-center">
+                  <span className="px-3 text-black-50"></span>
+                  {/* <div className="d-flex align-items-center">
                     <i className="bi bi-folder2"></i> <span className="ps-2">Politics</span>
-                  </div>
+                  </div> */}
                 </div>
 
                 <hr/>
@@ -806,22 +806,22 @@ const Index = () => {
             <div className="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
 
               <div className="post-img position-relative overflow-hidden">
-                <Image width={415} height={300} src="/img/blog/blog-2.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/blog1b.jpg" className="img-fluid" alt=""/>
                 <span className="post-date">July 17</span>
               </div>
 
               <div className="post-content d-flex flex-column">
 
-                <h3 className="post-title">Et repellendus molestiae qui est sed omnis</h3>
+                <h3 className="post-title">How Technology is Transforming Logistics</h3>
 
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
                     <i className="bi bi-person"></i> <span className="ps-2">Mario Douglas</span>
                   </div>
-                  <span className="px-3 text-black-50">/</span>
-                  <div className="d-flex align-items-center">
+                  <span className="px-3 text-black-50"></span>
+                  {/* <div className="d-flex align-items-center">
                     <i className="bi bi-folder2"></i> <span className="ps-2">Sports</span>
-                  </div>
+                  </div> */}
                 </div>
 
                 <hr/>
@@ -837,22 +837,22 @@ const Index = () => {
             <div className="post-item position-relative h-100">
 
               <div className="post-img position-relative overflow-hidden">
-                <Image width={415} height={300} src="/img/blog/blog-3.jpg" className="img-fluid" alt=""/>
+                <Image width={415} height={300} src="/img/blog1c.jpg" className="img-fluid" alt=""/>
                 <span className="post-date">September 05</span>
               </div>
 
               <div className="post-content d-flex flex-column">
 
-                <h3 className="post-title">Quia assumenda est et veritati tirana ploder</h3>
+                <h3 className="post-title">Improving Warehouse Efficiency: Best Practices</h3>
 
                 <div className="meta d-flex align-items-center">
                   <div className="d-flex align-items-center">
                     <i className="bi bi-person"></i> <span className="ps-2">Lisa Hunter</span>
                   </div>
-                  <span className="px-3 text-black-50">/</span>
-                  <div className="d-flex align-items-center">
+                  <span className="px-3 text-black-50"></span>
+                  {/* <div className="d-flex align-items-center">
                     <i className="bi bi-folder2"></i> <span className="ps-2">Economics</span>
-                  </div>
+                  </div> */}
                 </div>
 
                 <hr/>
